@@ -5,16 +5,6 @@
     <link>http://pinkyhsu.github.io/</link>
     <description>Recent content on NeoKeys</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 17 Dec 2021 10:44:33 +0800</lastBuildDate><atom:link href="http://pinkyhsu.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Testpage</title>
-      <link>http://pinkyhsu.github.io/post/testpage/</link>
-      <pubDate>Fri, 17 Dec 2021 10:44:33 +0800</pubDate>
-      
-      <guid>http://pinkyhsu.github.io/post/testpage/</guid>
-      <description>&lt;p&gt;Hello world!&lt;/p&gt;</description>
-    </item>
-    
+    <language>en-us</language><atom:link href="http://pinkyhsu.github.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
