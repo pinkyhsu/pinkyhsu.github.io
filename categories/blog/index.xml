@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>NeoKeys</title>
-    <link>http://pinkyhsu.github.io/</link>
-    <description>Recent content on NeoKeys</description>
+    <title>blog on NeoKeys</title>
+    <link>http://pinkyhsu.github.io/categories/blog/</link>
+    <description>Recent content in blog on NeoKeys</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Dec 2021 10:44:33 +0800</lastBuildDate><atom:link href="http://pinkyhsu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Dec 2021 10:44:33 +0800</lastBuildDate><atom:link href="http://pinkyhsu.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Testpage</title>
       <link>http://pinkyhsu.github.io/post/testpage/</link>
