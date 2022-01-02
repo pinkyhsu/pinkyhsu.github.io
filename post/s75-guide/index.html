@@ -168,7 +168,7 @@
 
 <style type="text/css">
     header.intro-header {
-        background-image: url('https://cdn.shopify.com/s/files/1/0238/7342/1376/products/DSC_5349_1080x.jpg?v=1604025176')
+        background-image: url('https://drive.google.com/uc?export=view&id=1lKlF7tjQ-Ikuc-hrKiOP8totvQPuVRAN')
     }
 </style>
 <header class="intro-header">
@@ -271,10 +271,11 @@
 <h3 id="11-安装oled以及导电棉块">1.1 安装OLED以及导电棉块</h3>
 <ul>
 <li>
-<p>首先安装尼龙螺柱如图示位置，以确保显示屏安装在正确的位置:</p>
+<p>首先安装尼龙螺柱如图示位置，以确保显示屏安装在正确的位置:
+<img sytle="border:2px solid black" src="https://drive.google.com/uc?export=view&id=115nuNZR8van_UxRuG3VJItPGcZxE7B61" align="middle"></p>
 </li>
 <li>
-<p>将尼龙螺柱放置在pcb孔位 (绿圈位置)。
+<p>将尼龙螺柱放置在pcb孔位 (绿圈位置)。 (新版PCB已增至3个孔位)
 <img sytle="border:2px solid black" src="https://docs.cannonkeys.com/images/satisfaction75/oled_screws_installed.jpg" align="middle"></p>
 </li>
 <li>
@@ -391,7 +392,7 @@
 <img sytle="border:2px solid black" src="https://docs.cannonkeys.com/images/satisfaction75/boot_switch_0.jpg" align="middle"></p>
 </li>
 <li>
-<p>用镊子或其他导电的工具接通每个轴位的轴脚轴座，测试触发。</p>
+<p>用镊子或其他导电的工具接通每个轴位的焊盘，测试触发。</p>
 </li>
 </ul>
 <p>可用zF的<a href="https://www.zfrontier.com/lab/keyboardTester">键盘测试工具</a>。
@@ -403,7 +404,7 @@
 <p>安装最新版本的<a href="https://zadig.akeo.ie/">Zadig</a>。(只支持Windows)</p>
 </li>
 <li>
-<p>下载最新的<a href="https://github.com/qmk/qmk_toolbox/releases">QMK Toolbox</a>。</p>
+<p>下载最新的<a href="https://github.com/qmk/qmk_toolbox/releases">QMK Toolbox</a>。使用windows的用户下载<code>qmk_toolbox.exe</code>即可。</p>
 </li>
 <li>
 <p>将Boot0开关拨到位置&quot;1&quot;
@@ -430,14 +431,18 @@
 <img sytle="border:2px solid black" src="https://docs.cannonkeys.com/images/initial_flash/ZadigWinUSB.PNG" align="middle"></p>
 </li>
 <li>
-<p>点击 <code>Replace Driver</code>，
-<img sytle="border:2px solid black" src="https://docs.cannonkeys.com/images/initial_flash/ZadigReplace.PNG" align="middle"></p>
+<p>点击 <code>Install Driver</code> (或相同位置的<code>Replace Driver</code>)，
+<img sytle="border:2px solid black" src="https://drive.google.com/uc?export=view&id=1nUlo3AaATPjkRkNT4z6pIoGSNwid9TSb" align="middle"></p>
 </li>
 <li>
-<p>你会看到显示 <code>Installing Driver</code> 的进度条。</p>
+<p>你会看到显示 <code>Installing Driver</code> 的进度条。
+<img sytle="border:2px solid black" src="https://docs.cannonkeys.com/images/initial_flash/ZadigInstallingDriver.PNG" align="middle"></p>
+</li>
+<li>
+<p>安装成功
+<img sytle="border:2px solid black" src="https://drive.google.com/uc?export=view&id=1gz-yV0UnZfGFyemu6LJpbSrvCanIDchX" align="middle"></p>
 </li>
 </ul>
-<img sytle="border:2px solid black" src="https://docs.cannonkeys.com/images/initial_flash/ZadigInstallingDriver.PNG" align="middle">
 <p><strong>S75刷机</strong></p>
 <ul>
 <li>
@@ -459,10 +464,11 @@
 <p>你将会看到<strong>File downloaded successfully</strong>表示刷机成功。</p>
 </li>
 <li>
-<p>将Boot0开关拨回位置&quot;0&quot;，再按下标示&quot;reset&quot;的按钮，完成。</p>
+<p>将Boot0开关拨回位置&quot;0&quot;，再按下标示&quot;reset&quot;的按钮，完成！(如果没反应，重新插一下线)</p>
 </li>
 </ul>
 <p><em><strong>注意：此固件只能在OLED安装上时才能正常使用!</strong></em></p>
+<p><strong>整个刷机过程大概持续3分钟左右，刷机只需一次。之后的改键可以很方便地通过<a href="https://caniusevia.com"><code>VIA</code></a>实现</strong></p>
 </font>
 
                 
